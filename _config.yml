@@ -20,8 +20,8 @@
 
 title: William Bowden
 email: william.f.bowden@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-Welcome to my website in which organize my various hyperlinks. I am a Senior studying Computer Science at Arizona State University. I am deeply interested in the philosophical theories that underline the evolution of technology. I believe that the computer age is nothing less than a golden age. I want to undertake writing so that I can be more immersed in our digital culture. I have experience writing Full Stack Apps and I am currently interested in exploring finances with Python.
+description: >- # this means to ignore newlines until "baseurl:" 
+Welcome to my website in which organize my various hyperlinks.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
