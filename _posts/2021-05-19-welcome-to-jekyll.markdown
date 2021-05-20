@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  site.title
+title:  "Is the Only Rebellion Left in Your Black Jeans, or Your iPhone?"
 date:   2021-05-19 18:08:44 -0700
 categories: jekyll update
 ---
-## Y	Is the Only Rebellion Left in Your Black Jeans, or Your iPhone?
 ## By W. Francisco Bowden
 
 CONTENT has become cheap, and attention has become expensive. Advertisers on all fronts are attacking all our senses when we use social media. Every click, every post I read, is a suggestion. I use an app to block Facebook, because even after uninstalling it, I would open it up in my browser to check it.
