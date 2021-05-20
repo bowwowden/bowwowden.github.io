@@ -29,6 +29,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  bowwowden
 
+youtube: William
+youtube_channel: UCBjDG1F-f9U3BWUIhrZ9UNQ
+youtube_channel_name: William Bowden
+
 # Build settings
 theme: minima
 plugins:
