@@ -1,0 +1,22 @@
+{
+  "name": "williamsoda",
+  "version": "1.0.0",
+  "description": "This node website was built 11/7/21 for the SoDA bootcamp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bowwowden/bowwowden.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bowwowden/bowwowden.github.io/issues"
+  },
+  "homepage": "https://github.com/bowwowden/bowwowden.github.io#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
