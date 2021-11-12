@@ -55,11 +55,11 @@
     padding-left: 10px;
 }
 
-#project-links a:link, a:visited {
+#project-links a:link, a:visited a:hover {
     color: #80241e;
 }
 
-#project-links_right a:link, a:visited {
+#project-links_right a:link, a:visited a:hover {
     color: #80241e;
 }
 
