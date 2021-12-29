@@ -43,16 +43,17 @@
     border-radius: 50%;
 }
 
-#profile_links
+#profile_links a:link, a:visited
 {
-    color: white;
     font-family: 'Computer Modern Sans';
+    color: #80241e;
 }
 
-#profile_links_right
+#profile_links_right a:link
 {   
     font-family: 'Computer Modern Sans';
     padding-left: 10px;
+    color: #80241e;
 }
 
 #project-links a:link, a:visited a:hover {
