@@ -154,6 +154,15 @@ input[type=checkbox]{
 
 /* links */
 
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    .summary-content {
+        box-sizing: border-box;
+        font-family: Kumbh Sans;
+        font-size: 30px;
+    }
+  }
+
 
 
 #project-links a:link, a:visited a:hover {
