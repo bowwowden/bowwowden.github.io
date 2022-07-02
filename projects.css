@@ -34,12 +34,8 @@
     color: #80241e;
 }
 
-#project-title a:link, a:visited {
+#project-title .a:hover .a:link .a:visited {
     color: #80241e;
-}
-
-a:hover {
-    color: red;
 }
 
 #back_button {

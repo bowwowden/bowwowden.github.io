@@ -15,12 +15,6 @@ fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos`)
             const cardContainer = document.createElement("div")
             cardContainer.className = "card center"
 
-            // const cardImg = document.createElement("img")
-            // cardImg.src = "./assets/generic_code_bgrnd.jpg"
-            // cardImg.className = "project-image"
-
-            // cardContainer.appendChild(cardImg)
-
             const projectInfoContainer = document.createElement("div")
             projectInfoContainer.className = "project-info-container"
 
