@@ -139,22 +139,18 @@ h2 {
     color: rgba(255,255,255,var(--text-opacity));
 }
 
-#email .a:link {
+#email {
     box-sizing: border-box;
     margin-top: .5rem;
     margin-bottom: 1.5rem;
     --text-opacity: 1;
-    color: #fff;
+    font-family: Whitney A, Whitney B,Arial,Helvetica,sans-serif;
+    color: #05d1e9;
     line-height: 20px;
 }
 
-#email .a:visited {
-    box-sizing: border-box;
-    margin-top: .5rem;
-    margin-bottom: 1.5rem;
-    --text-opacity: 1;
-    color: #fff;
-    line-height: 20px;
+#email .a:hover .a:link .a:visited {
+    color: #05d1e9;
 }
 
 /* About Me  */
