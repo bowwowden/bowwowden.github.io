@@ -149,9 +149,10 @@ h2 {
     line-height: 20px;
 }
 
-#email .a:hover .a:link .a:visited {
-    color: #05d1e9;
-}
+a.three:link {color:#ff0000;}
+a.three:visited {color:#0000ff;}
+a.three:hover {background:#66ff66;}
+
 
 /* About Me  */
 .container {
