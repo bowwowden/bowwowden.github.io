@@ -15,17 +15,36 @@
 
 <body class="background">
 
-    <a href="./index.html" id="back_button">
-        <span style="font-weight: bolder;"> </span> Back
-    </a>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <p class="logo">William Bowden<span id="cursor">_</span></p>
+    
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+    
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li><a href="/">About</a></li>
+            <li><a href="https://bowden.substack.com/">Writing</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/codediary.html">Code Diary</a></li>
+          </div>
+        </ul>
+      </nav>
 
-    <p class="page-title" id="intro_page_title">My Projects<span id="cursor">_</span></p>
+    <div class="container" align="center">
+    
+        <div id="projects_container"></div>
+    
+        <script src="./cursor.js"></script>
+        <script src="./projects.js"></script>
+    
+    </div>
 
-    <div id="projects_container"></div>
-
-    <script src="./cursor.js"></script>
-    <script src="./projects.js"></script>
-
+    
 </body>
 
 </html>

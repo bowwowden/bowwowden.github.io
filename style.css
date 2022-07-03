@@ -122,15 +122,39 @@ input[type=checkbox]{
 
 .background {
     --bg-opacity: 1;
-    background-color: #f5fdff;
+    background-color: #000000;
 }
 
 h1 {
     font-size: 46px;
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255,255,255,var(--text-opacity));
 }
 
-#email .a:hover .a:link .a:visited {
-    color: #000;
+h2 {
+    font-size: 40px;
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255,255,255,var(--text-opacity));
+}
+
+#email .a:link {
+    box-sizing: border-box;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    --text-opacity: 1;
+    color: #fff;
+    line-height: 20px;
+}
+
+#email .a:visited {
+    box-sizing: border-box;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    --text-opacity: 1;
+    color: #fff;
+    line-height: 20px;
 }
 
 /* About Me  */
@@ -141,15 +165,16 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    font-size: 24px;
 }
 
 #profile_pic {
     float: right;
     max-width: 100%;
-    width: 200px;
+    width: 250px;
     box-sizing: border-box;
-    border: 0;
     border-radius: 50%;
+    border: 5px solid rgb(62, 70, 82);
 }
 
 .summary-content {
@@ -159,6 +184,8 @@ h1 {
     font-family: Kumbh Sans;
     font-size: 24px;
     line-height: 20px;
+    --text-opacity: 1;
+    color: rgba(255,255,255,var(--text-opacity));
 }
 
 
