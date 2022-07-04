@@ -164,6 +164,14 @@ a.three:visited {color:#fff;}
     font-size: 24px;
 }
 
+.container-code {
+    padding-left: 1rem;
+    padding-right: 2rem;
+    max-width: 600px;
+    margin-left: 0px;
+    margin-right: auto;
+}
+
 #profile_pic {
     float: right;
     max-width: 100%;
@@ -194,128 +202,4 @@ a.three:visited {color:#fff;}
     --text-opacity: 1;
     color: rgba(246,23,59,var(--text-opacity));
 }
-/*
 
-#intro_page_title {
-    color: #80241e;
-    font-size: 100px;
-}
-
-.page-title {
-    font-size: 120px;
-    font-weight: bolder;
-    font-family: 'Computer Modern Sans', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#ASU {
-    color: #80241e;
-    font-weight: bolder;
-}
-
-
-#cursor {
-    color: #F8F8F0;
-    font-size: 100px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: lighter;
-    vertical-align: text-top;
-}
-
-.toggle-button {
-    display: inline-block;
-    text-align: center;
-    text-transform: uppercase;
-    background: white;
-    border-radius: 6px;
-    transition: all 0.3s ease 0s;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 15px;
-    font-family: 'Computer Modern Sans';
-    font-style: italic;
-}
-
-.toggle-button:hover {
-    border-radius: 50px;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-}
-
-#projects_toggle {
-    border: 4px solid#cc665e;
-}
-
-#projects_toggle:hover {
-    color: #cc665e;
-    border-color: black;
-}
-
-#experience_toggle {
-    border: 4px solid #cc665e;
-}
-
-#experience_toggle:hover {
-    color: #40AAF2;
-    border-color: black;
-}
-
-th, td {
-    padding: 20px;
-    border: 1px solid gray;
-}
-
-.experience-entry:hover {
-    background-color: #80241e;
-}
-
-#experience_table {
-    display: none;
-    width: 70%;
-    margin-top: 20px;
-    color: white;
-}
-
-.experience-title {
-    font-size: 30px;
-    width: 40%;
-    text-align: center;
-    font-family: 'Computer Moden Sans', 'Arial Narrow', Arial, sans-serif;
-}
-
-.experience-desc {
-    font-size: 20px;
-    width: 60%;
-    font-family: 'Computer Modern Sans', 'Arial Narrow', Arial, sans-serif;
-}
-
-.social-icons a {
-    text-decoration: none;
-}
-
-#back_button {
-    color: lightgray;
-    text-decoration: none;
-}
-
-#back_button:visited {
-    color: lightgray;
-}
-
-.sidebar {
-    height: 200px;
-    width: 150px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding-top: 40px;
-    background-color: lightblue;
-}
-
-.sidebar div {
-    padding: 8px;
-    font-size: 24px;
-    display: block;
-} */
