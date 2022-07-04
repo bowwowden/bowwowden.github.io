@@ -1,11 +1,27 @@
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 40%;
-    border-radius: 5px;
-    background-color: white;
-    margin-top: 20px;
-    font-family: 'Verdana';
+@media (max-width: 768px) 
+{
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 80%;
+        border-radius: 5px;
+        background-color: white;
+        margin-top: 20px;
+        font-family: 'Verdana';
+    }
+}
+
+@media (min-width: 768px) 
+{
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 50%;
+        border-radius: 5px;
+        background-color: white;
+        margin-top: 20px;
+        font-family: 'Verdana';
+    }
 }
 
 .card:hover {
@@ -28,19 +44,9 @@
 #project-title {
     font-family: Whitney A, Whitney B,Arial,Helvetica,sans-serif;
     color: #80241e;
+    object-fit: cover;
 }
 
 #project-title .a:hover .a:link .a:visited {
     color: #80241e;
-}
-
-#back_button {
-    position: fixed;
-    top: 5;
-    left: 5;
-    height: 50px;
-    width: auto;
-    font-size: 40px;
-    background-color: transparent;
-    cursor: pointer;
 }
