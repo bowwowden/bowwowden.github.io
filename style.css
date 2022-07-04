@@ -149,9 +149,8 @@ h2 {
     line-height: 20px;
 }
 
-a.three:link {color:#ff0000;}
-a.three:visited {color:#0000ff;}
-a.three:hover {background:#66ff66;}
+a.three:link {color:#fff;}
+a.three:visited {color:#fff;}
 
 
 /* About Me  */
@@ -185,7 +184,16 @@ a.three:hover {background:#66ff66;}
     color: rgba(255,255,255,var(--text-opacity));
 }
 
-
+.diary-entry {
+    box-sizing: border-box;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    font-family: Kumbh Sans;
+    font-size: 24px;
+    line-height: 20px;
+    --text-opacity: 1;
+    color: rgba(246,23,59,var(--text-opacity));
+}
 /*
 
 #intro_page_title {
