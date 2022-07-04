@@ -171,15 +171,30 @@ a.three:visited {color:#fff;}
     margin-left: 0px;
     margin-right: auto;
 }
-
-#profile_pic {
-    float: right;
-    max-width: 100%;
-    width: 250px;
-    box-sizing: border-box;
-    border-radius: 50%;
-    border: 5px solid rgb(62, 70, 82);
+@media (max-width: 768px) 
+{
+    #profile_pic {
+        display:none;
+        float: right;
+        max-width: 100%;
+        width: 250px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        border: 5px solid rgb(62, 70, 82);
+    }
 }
+@media (min-width: 768px) 
+{
+    #profile_pic {
+        float: right;
+        max-width: 100%;
+        width: 250px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        border: 5px solid rgb(62, 70, 82);
+    }
+}
+
 
 .summary-content {
     box-sizing: border-box;
