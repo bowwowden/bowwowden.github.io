@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Welcome to Jekyll!"
+title:  "IPv6 Basics for CCNA"
 date:   2023-08-29
 categories: jekyll update
 ---
