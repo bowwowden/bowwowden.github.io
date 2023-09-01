@@ -125,7 +125,50 @@ IPv6 doesn't use MAC addressing for its layer 2 connections to other computers.
 
 However, people are too familiar with MAC addresses for them to go away. The MAC can still be found with other commands.
 
-**<ins>Anycast</ins>**
+### Anycast
+
+An Anycast address is assignable to more than one device or interface.
+The packet is routed to the nearest address with lowest cost.
+
+**<ins>IPv6 Subnetting</ins>**
+
+/64 Subnet prefix.
+
+First 48 bits are the global routing prefix.
+It is assigned by the ISP.
+
+Next 16 bits are the subnet ID. 
+
+48 + 16 = /64 Subnet Prefix.
+
+Interface ID = 64 bits.
+
+**<ins>EUI-64</ins>**
+
+Extended Unique Identifier.
+1st half of MAC address. Followed by FF:FE.
+2nd half of MAC address.
+
+### Stateless Address Autoconfiguration (SLAAC)
+
+- Stateless autoconfiguration
+- DHCPv6
+
+Stateless autoconfiguration is way to assign addresses without a DHCP server.
+The EUI-64 process and NDP create a global unicast address.
+Host and router configured with **ipv6 unicast-routing** command send and receive
+NDP messages to establish address.
+
+### Migration
+
+Remember!!!
+
+Dual stack where you can. Tunnel where you must.
+
+IPv6 is honestly an old protocol now. We'll see if it becomes the majority addressing
+scheme by the 2030s but I doubt it.
+
+
 
 
 
