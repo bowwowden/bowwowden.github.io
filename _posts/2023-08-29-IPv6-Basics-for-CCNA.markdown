@@ -149,6 +149,8 @@ Extended Unique Identifier.
 1st half of MAC address. Followed by FF:FE.
 2nd half of MAC address.
 
+![image description](/assets/images/eui.png)
+
 ### Stateless Address Autoconfiguration (SLAAC)
 
 - Stateless autoconfiguration
