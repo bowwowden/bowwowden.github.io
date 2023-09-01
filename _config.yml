@@ -21,7 +21,8 @@
 title: Bowden's Blog
 email: william.f.bowden@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The mind is not a vessel to be filled, but a fire to be kindled.
+  This is mostly a FAQ for myself. Inspiring quote:
+  "The mind is not a vessel to be filled, but a fire to be kindled." - Plutarch
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bowwowden
