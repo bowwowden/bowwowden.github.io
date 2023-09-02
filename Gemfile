@@ -35,4 +35,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "jekyll-remote-theme"
 
 # syntax highlighting
-gem 'rouge'
+gem 'jekyll', '~> 4.2'
+gem 'rouge', '~> 4.1'
