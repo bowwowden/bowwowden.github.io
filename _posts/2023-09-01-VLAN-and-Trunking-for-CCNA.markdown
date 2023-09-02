@@ -9,5 +9,3 @@ categories: jekyll update
 **2023-09-01**
 
 VLAN and Trunking
-
-
