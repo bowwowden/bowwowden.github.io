@@ -13,6 +13,12 @@ If for some reason you want to know more about what I think, check out my substa
 
 # Blog
 
+[VLAN and Trunking for CCNA - 2023 09 01 Post ]({% link _posts/2023-09-01-VLAN-and-Trunking-for-CCNA.markdown%})
+
 [IPv6 Basics for CCNA - 2023 08 29 Post ]({% link _posts/2023-08-29-IPv6-Basics-for-CCNA.markdown %})
+
+
+[ rouge syntax highlighter test ]({% link _posts/2023-09-01-basic-template.markdown %})
+
 
 
