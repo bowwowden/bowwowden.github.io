@@ -7,11 +7,12 @@ categories: jekyll update
 
 testing rouge syntax highlighter
 
-{% codeblock :language => 'cisco_ios', :title => 'Cisco 2940 AP Port Configuration' %}
+{% highlight cisco_ios %}
+
 interface FastEthernet0/5
     switchport trunk native vlan 99
     switchport trunk allowed vlan 11,20
     switchport mode trunk
     switchport nonegotiate
-    
-{% endcodeblock %}
+
+{% endhighlight %}
