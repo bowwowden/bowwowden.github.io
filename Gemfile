@@ -36,4 +36,4 @@ gem "jekyll-remote-theme"
 
 # syntax highlighting
 # gem 'jekyll', '~> 4.2'
-gem 'rouge', '~> 4.1'
+# gem 'rouge', '~> 4.1'

@@ -7,12 +7,15 @@ categories: jekyll update
 
 testing rouge syntax highlighter
 
-{% highlight cisco_ios %}
+{% highlight python %}
+def hello:
+    pass
+
+{% endhighlight %}
+
 
 interface FastEthernet0/5
     switchport trunk native vlan 99
     switchport trunk allowed vlan 11,20
     switchport mode trunk
     switchport nonegotiate
-
-{% endhighlight %}
