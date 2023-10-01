@@ -17,6 +17,7 @@ If for some reason you want to know more about what I think, check out my substa
 
 [IPv6 Basics for CCNA - 2023 08 29 Post ]({% link _posts/2023-08-29-IPv6-Basics-for-CCNA.markdown %})
 
+[Spanning Tree Protocol - 2023 10 01 ]({% link _posts/2023-10-01-Spanning-Tree-Protocol.markdown %})
 
 [ rouge syntax highlighter test ]({% link _posts/2023-09-01-basic-template.markdown %})
 
