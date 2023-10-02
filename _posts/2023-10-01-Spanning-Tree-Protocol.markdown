@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "basic template"
+title:  "Spanning Tree Protocol"
 date:   2023-10-01
 categories: jekyll update
 ---
@@ -24,6 +24,8 @@ Interfaces/ports are either in blocking/forwarding state.
 STP config is exchanged by interfaces every 2 seconds, using a multicast frame (BPDU), bridge protocol dataunit.
 
 Bridge ID
+
+
 ![image description](/assets/images/bridge-id2.webp)
 
 ### Rapid PVST+
